@@ -128,6 +128,28 @@ let obj4 = {...obj1, ...obj2};
 //console.log(obj4);
 
 
+//object destructure
+
+//console.log({ object key name}); means destructuring
+
+let laptop = {
+    name : "Lenovo",
+    processor: "i3",
+    cost: 40000
+}
+
+let {processor} = laptop;
+console.log(processor);  // by object destructure we can dispaly object property directly by name
+console.log({cost});
 
 
+
+// In pure JSON both  key and value are in treated as String type
+
+// {
+//     "name": "Anki",
+//     "age": 23,
+//     "Education":"MCA"
+
+// }
 
